@@ -1,0 +1,29 @@
+#txt{
+    width: 70%;
+    height: 6rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: block; /*turns textarea into block,hence our button goes down**/
+}
+
+/*since div is just a block we have to give border as well*/
+#div-translated{
+    border: 1px solid black;
+    width: 70%;
+    height: 6rem;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#div-heading{
+    margin:1rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+#btn{
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
