@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Castoro', serif;
+    max-width: 600px;
+}
+:root{
+    --primary-color: #FDE68A;
+}
 #txt{
-    width: 70%;
+    width: 50%;
     height: 6rem;
     padding: 1rem;
     margin: 1rem;
@@ -9,7 +19,7 @@
 /*since div is just a block we have to give border as well*/
 #div-translated{
     border: 1px solid black;
-    width: 70%;
+    width: 50%;
     height: 6rem;
     display: block;
     padding: 1rem;
@@ -18,12 +28,32 @@
 
 #div-heading{
     margin:1rem;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: large;
+    box-sizing: border-box;
 }
 
 #btn{
     margin: 1rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    background-color: var(--primary-color);
+    font-weight: bold;
+}
+
+.background{
+    background-color: var(--primary-color);
+    margin-top: 0;
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.footer-bg{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
 }
