@@ -27,14 +27,14 @@ body{
 
 #div-heading{
     margin:1rem;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: large;
     box-sizing: border-box;
 }
 
 #btn{
     margin: 1rem;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
     padding: 0.5rem;
     background-color: var(--primary-color);
     font-weight: bold;
@@ -55,4 +55,9 @@ body{
     font-size: 1rem;
     text-align: center;
     font-weight: 400;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
 }
