@@ -3,7 +3,6 @@
 body{
     margin: 0px;
     font-family: 'Castoro', serif;
-    max-width: 600px;
 }
 :root{
     --primary-color: #FDE68A;
