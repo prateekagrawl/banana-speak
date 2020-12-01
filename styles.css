@@ -17,6 +17,7 @@ body{
 
 /*since div is just a block we have to give border as well*/
 #div-translated{
+    overflow: scroll;
     border: 1px solid black;
     width: 50%;
     height: 6rem;
@@ -47,6 +48,7 @@ body{
     text-align: center;
     
 }
+
 
 .footer-bg{
     background-color: var(--primary-color);
