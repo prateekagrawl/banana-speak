@@ -48,6 +48,7 @@ body{
     min-height: 20vh;
     padding: 1rem;
     margin: 1rem;
+    display: block;
 }
 
 .background{
