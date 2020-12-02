@@ -5,21 +5,38 @@ body{
     font-family: 'Castoro', serif;
 }
 :root{
-    --primary-color: #FDE68A;
+    --primary-color: #ffe342;
+}
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+
 }
 #txt{
-    width: 50%;
-    min-height: 6rem;
+    width: 80%;
+    min-height: 20vh;
     padding: 1rem;
     margin: 1rem;
     display: block; /*turns textarea into block,hence our button goes down**/
 }
 
+#btn{
+    margin-left: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    
+}
+
 #div-heading{
     margin:1rem;
-    font-weight: bold;
+    font-weight: normal;
     font-size: large;
-    box-sizing: border-box;
 }
 
 
@@ -27,20 +44,10 @@ body{
 #div-translated{
     overflow: scroll;
     border: 1px solid black;
-    width: 50%;
-    min-height: 6rem;
-    display: block;
+    width: 80%;
+    min-height: 20vh;
     padding: 1rem;
     margin: 1rem;
-}
-
-
-#btn{
-    margin: 1rem;
-    /* border-radius: 0.5rem; */
-    padding: 0.5rem;
-    background-color: var(--primary-color);
-    font-weight: bold;
 }
 
 .background{
@@ -48,16 +55,19 @@ body{
     margin-top: 0;
     padding: 2rem;
     text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
     
 }
 .footer-bg{
     background-color: var(--primary-color);
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 0px;
     font-size: 1rem;
     text-align: center;
     font-weight: 400;
 }
-.container{
-   margin: auto;
+.footer-heading{
+    font-size: medium;
+    font-weight: bolder;
 }
