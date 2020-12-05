@@ -13,7 +13,7 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
-
+    /* text-align: center; */
 }
 #txt{
     width: 80%;
@@ -24,13 +24,17 @@ body{
 }
 
 #btn{
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 1rem 1.5rem;
     background-color: var(--primary-color);
     font-weight: bold;
     border: none;
     border-radius: 0.5rem;
-    
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(117 123 156);
 }
 
 #div-heading{
